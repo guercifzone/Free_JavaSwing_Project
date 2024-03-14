@@ -11,18 +11,12 @@ public class My_Browser extends JFrame {
     JEditorPane editorPane  = new JEditorPane();
 
     public static void main(String[] args) {
-
-
-
         My_Browser browser = new My_Browser();
         browser.setSize(700, 500);
         browser.setVisible(true);
-        browser.go("http://www.google.com");
+        browser.go("https://guercifzone-ar.blogspot.com/");
 
     }
-
-
-
 
     public My_Browser()  {
       super();

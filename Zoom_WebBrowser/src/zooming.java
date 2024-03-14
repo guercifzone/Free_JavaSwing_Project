@@ -22,7 +22,7 @@ public class zooming extends JEditorPane {
         JScrollPane scroll=new JScrollPane(scaledTextPane);
         frame.getContentPane().add(scroll);
         frame.getContentPane().add(scaledTextPane.zoomCombo, BorderLayout.NORTH);
-        scaledTextPane.setPage(new URL("http://google.com"));
+        scaledTextPane.setPage(new URL("https://guercifzone-ar.blogspot.com/"));
         frame.setSize(200,200);
         frame.show();
     }

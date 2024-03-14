@@ -8,7 +8,7 @@ public static void main (String [] arg)throws Exception{
 
     JEditorPane editorPane = new JEditorPane();
 
-    editorPane.setPage(new URL("http://www.java2s.com"));
+    editorPane.setPage(new URL("https://guercifzone-ar.blogspot.com/"));
 
     frame.add(new JScrollPane(editorPane));
 
